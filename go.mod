@@ -1,4 +1,4 @@
-module github.com/luciancurteanu/golang
+module github.com/luciancurteanu/goproxy
 
 go 1.12
 
