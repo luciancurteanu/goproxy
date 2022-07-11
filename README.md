@@ -3,7 +3,7 @@
 set -e
 
 cd ~
-git clone https://github.com/luciancurteanu/go
+git clone https://github.com/luciancurteanu/golang
 cd golang
 
-python3 install.py --path=/home/go/go --user=go
+python3 install.py --path=/home/golang/go --user=go
