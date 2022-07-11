@@ -6,4 +6,4 @@ cd ~
 git clone https://github.com/luciancurteanu/golang
 cd golang
 
-python3 install.py --path=/home/golang/go --user=go
+python3 install.py --path=/home/golang/golang --user=golang
