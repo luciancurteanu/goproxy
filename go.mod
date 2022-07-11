@@ -1,6 +1,6 @@
 module github.com/luciancurteanu/golang
 
-go 1.14
+go 1.12
 
 require (
 	github.com/gin-gonic/gin v1.4.0
