@@ -1,0 +1,35 @@
+{
+    "server": {
+        "mode": "debug",
+        "address": "127.0.0.1:8080",
+        "headers": {
+            "access-control-allow-origin": "*"
+        },
+        "whitelist": {
+            "enable": true,
+            "addresses": [
+                "localhost",
+                "127.0.0.1",
+                "195.201.194.96",
+                "89.40.119.55",
+                "94.177.251.187"
+            ]
+        }
+    },
+    "logging": {
+        "filepath": "logs/hqtv.log",
+        "stderr": true
+    },
+    "clients": {
+        "timeout": 30,
+        "cookies": {
+            "persist": false
+        },
+        "proxy": {
+            "protocol": "tcp",
+            "address": "127.0.0.1:9050",
+            "test": "https://icanhazip.com"
+        }
+    },
+    "database": {}
+}
