@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/luciancurteanu/golang/middleware"
-	"github.com/luciancurteanu/golang/routes"
+	"github.com/luciancurteanu/goproxy/middleware"
+	"github.com/luciancurteanu/goproxy/routes"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-sql-driver/mysql"
