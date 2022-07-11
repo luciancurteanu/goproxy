@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument('--path', required=True, help='path to deploy to')
 parser.add_argument('--user', required=True, help='user to deploy as')
-parser.add_argument('--name', default='goproxy', help='name of the built binary')
+parser.add_argument('--name', default='app', help='name of the built binary')
 parser.add_argument('--no-service', action='store_true', default=False)
 
 args = parser.parse_args()
