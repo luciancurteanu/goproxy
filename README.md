@@ -3,7 +3,7 @@
 set -e
 
 cd ~
-git clone https://github.com/luciancurteanu/golang
-cd golang
+git clone https://github.com/luciancurteanu/goproxy
+cd goproxy
 
-python3 install.py --path=/home/golang/golang --user=golang
+python3 install.py --path=/home/goproxy/goproxy --user=goproxy
