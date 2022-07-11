@@ -17,7 +17,7 @@
         }
     },
     "logging": {
-        "filepath": "logs/golang.log",
+        "filepath": "logs/goproxy.log",
         "stderr": true
     },
     "clients": {
