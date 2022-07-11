@@ -17,11 +17,11 @@
         }
     },
     "logging": {
-        "filepath": "logs/hqtv.log",
+        "filepath": "logs/go.log",
         "stderr": true
     },
     "clients": {
-        "timeout": 30,
+        "timeout": 90,
         "cookies": {
             "persist": false
         },
