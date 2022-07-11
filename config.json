@@ -17,7 +17,7 @@
         }
     },
     "logging": {
-        "filepath": "logs/go.log",
+        "filepath": "logs/golang.log",
         "stderr": true
     },
     "clients": {
