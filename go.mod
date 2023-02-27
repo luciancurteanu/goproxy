@@ -1,6 +1,6 @@
 module github.com/luciancurteanu/goproxy
 
-go 1.19.1
+go 1.20.1
 
 require (
 	github.com/gin-gonic/gin v1.4.0
