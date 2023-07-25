@@ -97,7 +97,6 @@ func init() {
 	viper.SetDefault("clients.timeout", 30)
 	viper.SetDefault("clients.proxy.protocol", "tcp")
 	viper.SetDefault("clients.proxy.test", "https://icanhazip.com")
-	viper.SetDefault("clients.proxy.test", "https://icanhazip.com")
 
 	// Synchronization
 	wg := sync.WaitGroup{}
