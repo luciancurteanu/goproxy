@@ -10,14 +10,13 @@
             "addresses": [
                 "localhost",
                 "127.0.0.1",
-                "149.102.153.46",
-                "89.40.119.55",
-                "89.40.126.64"
+                "192.168.0.242",
+                "149.102.153.46"
             ]
         }
     },
     "logging": {
-        "filepath": "logs/goproxy.log",
+        "filepath": "logs/access.log",
         "stderr": true
     },
     "clients": {
